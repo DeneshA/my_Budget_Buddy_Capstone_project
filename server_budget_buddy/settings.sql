@@ -1,0 +1,3 @@
+CREATE DATABASE budget;
+CREATE USER budgetuser WITH PASSWORD 'password';
+GRANT ALL PRIVILEGES ON DATABASE budget TO budgetuser;
