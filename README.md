@@ -15,8 +15,8 @@ This GitHub project involves the development of a comprehensive full-stack appli
 
 # Wireframe 
   
-  ![alt text](image.png)
-  ![alt text](image-1.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
 
 # Component Hierarchy Diagram
 
