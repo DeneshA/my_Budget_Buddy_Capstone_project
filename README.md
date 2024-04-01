@@ -4,9 +4,7 @@ This GitHub project involves the development of a comprehensive full-stack appli
 
 # Git Repository Name ::  [my_Budget_Buddy_Capstone_project](https://github.com/DeneshA/my_Budget_Buddy_Capstone_project)
 
-# [Portfolio](https://github.com/DeneshA/myPortfolio)
-
-# [LinkedIn](www.linkedin.com/in/deneshananthadasan)
+# DENESH ANANDATHASAN [Portfolio](https://github.com/DeneshA/myPortfolio) # [LinkedIn](www.linkedin.com/in/deneshananthadasan)
 
 # A Closer Look at the Project...
  
@@ -27,3 +25,7 @@ This GitHub project involves the development of a comprehensive full-stack appli
 # ERD 
 
 ![alt text](image-3.png)
+
+# Technology Architecture
+
+![alt text](image-4.png)
