@@ -50,7 +50,8 @@ class LoginView(APIView):
         }
         
         # if sucessful login responds the token via cookies
-        return Response({'jwt': token})
+        # return response({'jwt': token})
+        return response
     
 class UserView(APIView):
     def get(self, request):
@@ -72,9 +73,11 @@ class UserView(APIView):
         
         # filter the payload to extract active user
         user = User.objects.filter(id=payload['id']).first()
-        
+        if not user:
+            raise AuthenticationFailed('User not found!')
+
         # convert the user into JSON serializable format
-        serializer = UserSerializer(User)
+        serializer = UserSerializer(user)
         
         return Response(serializer.data)
 
